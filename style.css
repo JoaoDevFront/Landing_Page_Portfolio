@@ -1,0 +1,176 @@
+/* Estilo básico */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+
+header {
+    color: #231F20;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('background_header-Landingpage_Portfolio.jpg'); /* Caminho para a sua imagem */
+    background-size: cover; /* Ajuste o tamanho da imagem para cobrir o header */
+    background-position: center; /* Posicione a imagem no centro */
+}
+
+.container-textos {
+    background-color: #fff; /* Cor de fundo do quadrado */
+    padding: 20px; /* Espaçamento interno do quadrado */
+    border-radius: 5px; /* Arredonda os cantos do quadrado */
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+/* Seções */
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Plano de Assinatura */
+
+.planos {
+    display: flex; /* Ativa o layout flexbox */
+    flex-direction: column; /* Define a direção do layout como coluna (vertical) */
+    align-items: center; /* Alinha os itens no centro da coluna */
+    gap: 20px; /* Adiciona espaço entre os planos */
+}
+
+
+.plano {
+    width: 30%;
+    text-align: center;
+}
+
+/* Estilos para os planos de assinatura */
+
+.plano {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.plano h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.plano p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.plano .btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.plano .btn:hover {
+    background-color: #286090;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-lg {
+    padding: 15px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    font-size: 18px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ddd;
+}
